@@ -1,0 +1,17 @@
+main: com.dsipal.main.resourcewar.ResourceWar
+name: ResourceWar
+version: 1.0
+author: Devin Sipal
+description: Fight over resources.
+commands:
+  resourcewar:
+    description: Base command for Resource War.
+    usage: /resourcewar
+    permission: resourcewar.player
+    permission-message: You do not have permission to use Resource War.
+
+permissions:
+  resourcewar.*:
+    description: Gives access to all Resource War commands.
+    children:
+      resourcewar.player: true

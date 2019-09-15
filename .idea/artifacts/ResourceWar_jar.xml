@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ResourceWar:jar">
+    <output-path>$USER_HOME$/Desktop/Resource Capture/plugins</output-path>
+    <root id="archive" name="ResourceWar.jar">
+      <element id="module-output" name="ResourceWar" />
+    </root>
+  </artifact>
+</component>
